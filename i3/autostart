@@ -1,0 +1,18 @@
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# copyq: clipboard manager
+exec --no-startup-id copyq --start-server
+
+# dunst: notifications
+exec --no-startup-id dunst
+
+# nitrogen: wallpapers
+exec --no-startup-id nitrogen --restore
+
+# NetworkManager: networking
+exec --no-startup-id nm-applet
+
+# polybar: bar
+exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh

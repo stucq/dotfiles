@@ -1,0 +1,19 @@
+[grayscale]
+black = "#12121f"
+gray1 = "#13151e"
+gray2 = "#222237"
+gray3 = "#24243c"
+gray4 = "#4f5071"
+gray5 = "#63658b"
+gray6 = "#a4a6c6"
+white = "#d4d7ff"
+
+[colors]
+pink = "#ff007d"
+red = "#d95177"
+orange = "#ffae57"
+yellow = "#fcf285"
+green = "#7bdba6"
+cyan = "#65dedc"
+blue = "#6d98e8"
+purple = "#837dd7"

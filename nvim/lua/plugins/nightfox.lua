@@ -1,0 +1,43 @@
+require("nightfox").setup({
+	options = {
+		styles = {
+			comments = "italic",
+			conditionals = "italic",
+			constants = "bold",
+			functions = "NONE",
+			keywords = "italic",
+			numbers = "NONE",
+			operators = "NONE",
+			strings = "NONE",
+			types = "NONE",
+			variables = "NONE",
+		},
+	},
+
+	palettes = {
+		nightfox = {
+			bg0 = "#12121f",
+			bg1 = "#12121f",
+			bg2 = "#222237",
+			bg3 = "#24243c",
+			bg4 = "#63658b",
+			fg0 = "#d4d7ff",
+			fg1 = "#d4d7ff",
+			fg2 = "#d4d7ff",
+			fg3 = "#4f5071",
+			sel0 = "#13151e",
+			sel1 = "#13151e",
+			comment = "#63658b",
+			black = "#222236",
+			red = "#d95177",
+			green = "#7bdba6",
+			yellow = "#65dedc",
+			blue = "#6d98e8",
+			magenta = "#837dd7",
+			cyan = "#fcf295",
+			white = "#d4d7ff",
+			orange = "#e3b56f",
+			pink = "#ff007d",
+		},
+	},
+})

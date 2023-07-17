@@ -1,0 +1,12 @@
+set $mod Mod4
+
+include autostart
+include keybinds
+include windows
+include workspaces
+
+# font 
+font pango:JetBrainsMono Nerd Font 8
+
+# move floating windows with Mouse+$mod
+floating_modifier $mod
