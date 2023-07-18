@@ -7,8 +7,11 @@ my dotfiles
 ### create
 
 - [ ] cava
+- [ ] chromium
 - [ ] gtk
+- [ ] mimeapps.list
 - [ ] nemo
+- [ ] nomacs
 - [ ] rofi
 - [ ] spicetify
 - [ ] vlc
@@ -20,5 +23,7 @@ my dotfiles
 
 ### misc
 
-- [ ] redo polybar/scripts/spotify.py
 - [ ] put polybar modules into their own files
+- [ ] hide spotify module when not playing
+- [ ] redo polybar/scripts/spotify.py
+- [ ] xdg file association for archives
